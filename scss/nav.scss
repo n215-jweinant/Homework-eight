@@ -1,0 +1,25 @@
+nav{
+    padding: 30px;
+    height: 60px;
+    background-color:rgb(207, 135, 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+a{
+    color: rgb(26, 25, 25);
+    text-decoration: none;
+
+    background-color:rgb(245, 243, 240);
+                border-radius: 05px;
+                height: 30px;
+                width: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                font-size: 12pt;
+                font-weight: bold;
+                letter-spacing: -1px;
+            }
+}

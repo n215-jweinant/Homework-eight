@@ -1,0 +1,68 @@
+.bout{
+    max-width: 100%;
+    height: calc(100% - 11.65%);
+    display: flex;
+    align-items: center;
+    .pict{
+        background-image:url(../images/istockphoto-1267010934-612x612.jpg   );
+        background-size: cover;
+    background-repeat: no-repeat;
+        width: 660px;
+        height: 902px;
+    }
+    .text{
+        width: 660px;
+margin: auto;
+        padding-left: 250px;
+font-family: Arial, Helvetica, sans-serif;
+        flex-direction: column;
+        align-items: center;
+
+
+        h1{
+            position: relative;
+            align-content: baseline;
+            font-size: 22px;
+            padding-bottom: 52px    ;
+        }
+        input{
+            width: 260px;
+            height: 58px;
+                padding: 5px;
+                font-size: 18px;
+                border: solid black 1.5px;
+            }
+        
+        .single-line-input-holder{
+            justify-content: space-between; 
+            margin-bottom: 20px;
+    }
+    .bigbutton{
+        align-items: center;
+        margin: auto;
+        padding-right: 25px;
+    height: 58px;
+    width: 106px;
+    border:rgb(207, 135, 34) solid 2px;
+    border-radius: 40px;
+    background-color:rgb(207, 135, 34);
+    display: flex;
+    margin-top: 37px;
+    justify-content: center;
+
+           span{
+            padding-right: 40px;
+font-family: Arial, Helvetica, sans-serif;          
+  border-radius: 25px;
+            width: 50px;
+            margin: auto;
+            text-align: center;
+            background-color:rgb(207, 135, 34);
+            padding: 10px;
+            color: white;
+            font-size: 12pt;
+                font-weight: bold;
+                letter-spacing: -1px;
+            }
+    }
+}}

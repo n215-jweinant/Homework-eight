@@ -1,0 +1,39 @@
+.two-sect{
+    max-width: 100%;
+    height: calc(100% - 11.65%);
+    display: flex;
+    align-items: center;
+    .pict{
+        background-image:url(../images/portrait-of-happy-construction-workers-standing-together-at-site-E8GR0Y.jpg);
+        background-size: cover;
+    background-repeat: no-repeat;
+        width: 660px;
+        height: 902px;
+    }
+    .text{
+        width: 660px;
+padding-left: 73px;
+padding-right: 73px;
+font-family: Arial, Helvetica, sans-serif;
+        h1{
+            align-content: baseline;
+            font-size: 22px;
+            padding-bottom: 52px    ;
+        }
+        p{
+            font-size: 12px;
+        }
+        .text-2{
+            padding-top: 75px;
+            h1{
+                align-content: baseline;
+                font-size: 22px;
+                padding-bottom: 52px    ;
+            }
+            p{
+                font-size: 12px;
+            } 
+        }
+    }
+
+}
